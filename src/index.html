@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html',{
+"title":"Главная страница тестового задания"
+})
+
+<body>
+    <main class="main wrap">
+    <section class="testing">
+      <h1 class="visually-hidden">Тестовое задание</h1>
+      <header class="testing__header">
+        <label for="modal" class="testing__label">Open pop-up button</label>
+        <input type="checkbox" id="modal" class="testing__input visually-hidden">
+        
+        <div class="popup">
+          <div class="popup__wrap">
+            <label class="popup__button" for="modal">X</label>
+            <p class="popup__text">Pop-up</p>
+          </div>
+        </div>
+      </header>
+      <ol class="testing__green-list">
+        <li class="testing__green-item"></li>
+        <li class="testing__green-item"></li>
+        <li class="testing__green-item"></li>
+        <li class="testing__green-item"></li>
+        <li class="testing__green-item"></li>   
+      </ol>
+      <ul class="testing__blue-list">
+       <li class="testing__blue-item"></li>
+       <li class="testing__blue-item"></li>
+       <li class="testing__blue-item"></li>
+       <li class="testing__blue-item"></li>      
+      </ul>
+      <footer class="testing__footer"></footer>
+    </section>
+  </main>
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
